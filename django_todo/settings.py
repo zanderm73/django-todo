@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'y%)_y!03xsrjxtp7$e^wo+0j4o&^o=(($%&#s
 DEBUG = True
 
 ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'),
-                 os.environ.get('C9_HOSTNAME')]
+                 os.environ.get('HOSTNAME')]
                  
 host = os.environ.get('SITE_HOST')
 if host:
